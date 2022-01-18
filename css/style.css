@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-img{
+
+.immagini{
     width: 100%;
 }
 
@@ -74,11 +75,21 @@ img{
     color: white;
 }
 
+.apparizione{
+    position: absolute;
+    left: 0;
+    display: none;
+    width: 100%;
+}
+
+.resize:hover .apparizione{
+    display: inline-block;
+}
+
 #pos-diversa{
     position: absolute;
     left: 0;
     bottom: 80px;
-
 }
 
 

@@ -46,6 +46,23 @@
     padding: 5px;
 }
 
+.cartellino-rosso{
+    width: 15%;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+}
+
+.cartellino-verde{
+    width: 35%;
+    background-color: green;
+    position: absolute;
+}
+
+
+.scritta{
+    color: white;
+}
 
 
 img{

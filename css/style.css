@@ -4,20 +4,36 @@
     padding: 0;
 }
 
-
 .container{
     width: 80%;
     margin: 0 auto;
+    font-family: verdana, sans-serif;
 }
 
-.resize{
-    width: 320px; 
+.resize{ 
+    width: 320px;
     height: auto;
     display: inline-block;
     margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.nome-abito{
+    font-weight: 800;
+}
+
+.prezzo-scontato{
+    color: red;
+    font-weight: 600;
+}
+
+.prezzo-intero{
+    text-decoration: line-through;
 }
 
 img{
     width: 100%;
 }
+
 

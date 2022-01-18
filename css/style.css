@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+img{
+    width: 100%;
+}
+
 .container{
     width: 80%;
     height: 80%;
@@ -50,13 +54,19 @@
     width: 15%;
     background-color: red;
     position: absolute;
-    z-index: 2;
+    left: 0;
+    bottom: 80px;
 }
 
 .cartellino-verde{
     width: 35%;
     background-color: green;
+}
+
+.pos-verde{
     position: absolute;
+    left: 55px ;
+    bottom: 80px;
 }
 
 
@@ -64,9 +74,13 @@
     color: white;
 }
 
+#pos-diversa{
+    position: absolute;
+    left: 0;
+    bottom: 80px;
 
-img{
-    width: 100%;
 }
+
+
 
 
